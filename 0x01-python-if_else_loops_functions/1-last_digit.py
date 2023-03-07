@@ -5,14 +5,14 @@ n = number
 
 if n < 0:
     n *= -1
-    lastdigit = n % 10
-    lastdigit *= -1
+    ld = n % 10
+    ld *= -1
 else:
-    lastdigit = n % 10
+    ld = n % 10
 
-if lastdigit > 5:
-    print(f'Last digit of {number} is {lastdigit} and is greater than 5')
-elif lastdigit == 0:
-    print(f'Last digit of {number} is {lastdigit} and is 0')
+if ld > 5:
+    print(f'Last digit of {number} is {ld} and is greater than 5')
+elif ld == 0:
+    print(f'Last digit of {number} is {ld} and is 0')
 else:
-    print(f'Last digit of {number} is {lastdigit} and is less than 6 and not 0')
+    print(f'Last digit of {number} is {ld} and is less than 6 and not 0')
