@@ -8,3 +8,7 @@ if __name__ == "__main__":
     from calculator_1.py import sub
     from calculator_1.py import mul
     from calculator_1.py import div
+    add(a, b)
+    sub(a, b)
+    mul(a, b)
+    div(a, b)
