@@ -1,6 +1,6 @@
 #!/usr/bin/node
 if (Number(process.argv[2]) !== NaN) {
-	console.log(Number(process.argv));
+	console.log(Number(process.argv[2]));
 } else {
 	console.log('Not a number');
 }
